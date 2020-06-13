@@ -1,0 +1,235 @@
+/* For all elements in html */
+
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-repeat:no-repeat;
+    background-size: cover;
+    opacity: 70%;
+    font-family: 'Piedra';
+    background-color: #2C3A47;
+    height: 100%;    
+    overflow-y: hidden;
+}
+.navbar{
+    width:100%;
+    background-color: #2C3A47;
+}
+.hamburger{
+    margin-top: 5px;
+    height:7%;
+    width:40px;
+    background-color: transparent;
+    cursor: pointer;
+    margin-left: 97%;
+    z-index: 5;
+
+}
+
+.bar1, .bar2, .bar3 {
+    margin-top: 7px;
+    height:5px;
+    width:35px;
+    background-color: white;
+    cursor: pointer;
+    z-index:5; 
+    transition: 0.2s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+    -webkit-transform: rotate(-46deg) translate(-9px, 6px) ;
+    transform: rotate(-46deg) translate(-9px, 6px) ;    
+}
+
+  /* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-9px, -6px) ;
+  transform: rotate(45deg) translate(-9px, -6px) ;
+}
+
+.row{
+    position: fixed;
+    width: 100%;
+    height: 93%;
+    overflow: hidden;
+    background-color: #2C3A47;
+    transition: ease-in 0.2s;
+    z-index:3;
+    top:-100%;
+}
+
+.thumbnail{
+    margin-top: 30%;
+    margin-left: 45%;
+    margin-bottom: -20px;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.hamburger-lists{
+    margin-top: 30%;
+    background-color:#2C3A47 ;
+    margin-left: 45%;
+}
+
+.hamburger-item{
+    list-style:none;
+    color: #fff200;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+
+a:link {
+    color: #fff200;
+    text-decoration: none;
+  }
+  a:visited {
+    color: #fff200;
+    text-decoration: none;
+  }
+  a:hover {
+    color: #ffb142 ;
+    text-decoration: none;
+    font-size: 31px;
+    transition: ease-in 0.1s;
+  }
+  a:active {
+    color: white;
+    text-decoration: none;
+  }
+
+.change .row {
+    top: 7vh;
+}
+
+.home-body{
+    width: 100%;
+    height:93vh;
+    background-color: #2C3A47;
+    text-align: justify;
+    padding-top: 18%;
+}
+.name{
+    font-size: 45px ;
+    text-align: center;
+}
+.firstname{
+    color: #fff200;
+    
+}
+
+.surname{
+    color:#F8EFBA;
+}
+
+.role{
+    font-size: 25px ;
+    text-align: center;
+}
+.role-text{
+    color:#eccc68;
+}
+
+@media only screen and (max-width: 373px) {
+   
+    .hamburger{
+        margin-left: 90%;
+    }
+    .thumbnail{
+        margin-top: 15%;
+    margin-left: 16%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    }
+
+    .hamburger-lists{
+        margin-top: 10%;
+        margin-left: 32%;
+    }
+
+    .name{
+        font-size: 45px ;
+        text-align: center;
+        margin-top: 15%;
+    }
+    .role{
+        padding:5%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) and (min-width: 374px) {
+   
+    .hamburger{
+        margin-left: 90%;
+    }
+    .thumbnail{
+    margin-top: 12%;
+    margin-left: 22%;
+    background-repeat:no-repeat;
+    background-size: cover;
+    width:200px;
+    height: 200px;
+    border-radius: 50%;
+    }
+
+    .hamburger-lists{
+        margin-top: -30%;
+        margin-left: 35%;
+        padding-top: 10px;
+    }
+
+    .name{
+        margin-top: 15%;
+    }
+    
+  }
+
+  @media only screen and (max-width: 849px) and (min-width: 500px) {
+    .hamburger{
+      margin-left: 95%;
+  }
+  .thumbnail{
+    margin-top: 80%;
+    margin-left: 20%;
+    }
+
+    .hamburger-lists{
+        margin-left: 32%;
+        padding-top: 50%;
+    }
+}
+
+  @media only screen and (max-width: 1049px) and (min-width: 850px) {
+    .hamburger{
+      margin-left: 97%;
+  }
+  .thumbnail{
+    margin-top: 80%;
+    margin-left: 30%;
+    }
+
+    .hamburger-lists{
+        margin-left: 32%;
+        padding-top: 50%;
+    }
+
+    .work-header{
+      margin-top: 12%;
+  }
+  }
