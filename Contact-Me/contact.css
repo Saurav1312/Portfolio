@@ -8,8 +8,6 @@
 }
 body{
   position: fixed;
-  background-repeat:no-repeat;
-  background-size: cover;
   opacity: 70%;
   font-family: 'Architects Daughter';
   width: 100%;
