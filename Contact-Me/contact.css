@@ -222,6 +222,10 @@ a:active {
     width: 280px;
     font-size: 16px;
   }
+
+.e-mail:hover {
+  font-size: 18px;
+}
   
   .social-media{
     margin-left: 15%;
@@ -258,6 +262,10 @@ a:active {
   margin-left: 15%;
   width: 280px;
   font-size: 16px;
+}
+
+e-mail:hover {
+  font-size: 18px;
 }
 
 .social-media{
