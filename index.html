@@ -2,212 +2,216 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Saurav Chakraborty Portfolio</title>
-  <link rel="stylesheet" href="https://saurav1312.github.io/Portfolio/style.css" />
-  <link rel="stylesheet" href="https://saurav1312.github.io/Portfolio/mediaqueries.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurav Chakraborty Portfolio</title>
+    <link rel="stylesheet" href="https://saurav1312.github.io/Portfolio/style.css" />
+    <link rel="stylesheet" href="https://saurav1312.github.io/Portfolio/mediaqueries.css" />
 </head>
 
 <body>
-  <nav id="desktop-nav">
-    <div class="logo">Saurav Chakraborty</div>
-    <div>
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#experience">Experience</a></li>
-        <li><a href="#education">Education</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </div>
-  </nav>
-  <nav id="hamburger-nav">
-    <div class="logo">Saurav Chakraborty</div>
-    <div class="hamburger-menu">
-      <div class="hamburger-icon" onclick="toggleMenu()">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-      <div class="menu-links">
-        <li><a href="#about" onclick="toggleMenu()">About</a></li>
-        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
-        <li><a href="#education" onclick="toggleMenu()">Education</a></li>
-        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
-      </div>
-    </div>
-  </nav>
-   <!-- Profile section -->
-   <section id="profile">
-    <div class="section__pic-container">
-    <img src="./profile-pic.png" />
-    </div>
-    <div class="section__text">
-      <p class="section__text__p1">Hello, I'm</p>
-      <h1 class="title">Saurav Chakraborty</h1>
-      <p class="section__text__p2">Full Stack Developer</p>
-      <div class="btn-container">
-        <button class="btn btn-color-1" onclick="location.href='./#contact'">
-          Contact Info
-        </button>
-      </div>
-      <div id="socials-container">
-        <div class="icon">
-            <a target="_blank" href="https://www.linkedin.com/in/saurav-chakraborty-389a71127/">
-                <img src="./linkedin.png" />
-            </a>
-            
+    <nav id="desktop-nav">
+        <div class="logo">Saurav Chakraborty</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
         </div>
-        <div class="icon">
-            <a target="_blank" href="https://github.com/Saurav1312">
-                <img
-                src="./github.png" />
-            </a>
-            
-        </div>
-     </div>
-    </div>
-  </section>
-
-  <!-- About section -->
-  <section id="about">
-    <p class="section__text__p1">Get To Know More</p>
-    <h1 class="title">About Me</h1>
-    <div class="section-container">
-      <div class="section__pic-container">
-        <img src="./about-pic.jpeg" />  
-    </div>
-      <div class="about-details-container">
-        <div class="about-containers">
-          <div class="details-container">
-            <div class="icon">
-                <img src="./experience.png" />
-            </div>
-            <h3>Experience</h3>
-            <p>4+ years <br />Full Stack Development</p>
-          </div>
-          <div class="details-container">
-            <div class="icon">
-            <img src="./education.png" />
-        </div>
-            <h3>Education</h3>
-            <p>B.Tech <br />Applied Electronics & Instrumentation</p>
-          </div>
-          <div class="text-container">
-            <p>
-              I am a dedicated hard-working team player with experience and excellent knowledge in cutting-edge web
-              development technologies such as Angular, React, Node.js, Express, NestJS, and SQL. With 4+ years of
-              experience as a full-stack developer, I aim to contribute my skills and creativity to achieve your company's
-              goals.
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-    
-    <div class="icon arrow" ><img src="./arrow.png" /></div>
-</section> 
-
-</section>
-
-  <!-- Experience section -->
-  <section id="experience">
-    <p class="section__text__p1">Explore My</p>
-    <h1 class="title">Experience</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">TCG DIGITAL</h2>
-          <h3>Software Developer</h3>
-          <p>March 2023 - Present | Kolkata</p>
-          <p>I have worked on Life Science, Aviation, and Industrial projects, developing the website structure,
-            integrating APIs, implementing web sockets, and backend services using Node.js, Express.js, and Nest.js with
-            MySQL.</p>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Block Stack Pvt Ltd</h2>
-          <h3>Web Developer</h3>
-          <p>October 2021 - February 2023 | Kolkata</p>
-          <p>Developed Paycircle, a Fintech solution. Focused on building reusable components, secure routing, API
-            integrations, and web sockets for real-time updates.</p>
-        </div>
-      </div>
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Crecientech Infosystem</h2>
-          <h3>Software Engineer</h3>
-          <p>August 2020 - June 2021 | Bangalore</p>
-          <p>Worked on developing modules, services, and editing components using Angular, Node.js, Express.js, and
-            Ionic.</p>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Edvantage Technologies</h2>
-          <h3>Web Developer</h3>
-          <p>August 2019 - January 2020 | Bangalore</p>
-          <p>Worked on Edkart, an e-commerce platform for schools. Developed product pages using Angular and
-            collaborated on the UI design.</p>
-        </div>
-      </div>
-    </div>
-    <div class="icon arrow" ><img src="./arrow.png" /></div>
-  </section>
-
-  <section id="education">
-    <p class="section__text__p1">My</p>
-    <h1 class="title">Education</h1>
-    <div class="experience-details-container">
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">College of Engineering and Management Kolaghat</h2>
-          <h3>B.Tech/B.E. in Applied Electronics & Instrumentation</h3>
-          <p>June 2017</p>
-        </div>
-        <div class="details-container">
-          <h2 class="experience-sub-title">Guru Nanak Higher Secondary School, Ranchi</h2>
-          <h3>Higher Secondary Certificate in Science</h3>
-          <p>March 2013</p>
-        </div>
-      </div>
-      <div class="about-containers">
-        <div class="details-container">
-          <h2 class="experience-sub-title">Surendra Nath Centenary School, Ranchi</h2>
-          <h3>Secondary School Certificate</h3>
-          <p>March 2011</p>
-        </div>
-      </div>
-    </div>
-  </section>
-  <section id="contact">
-    <p class="section__text__p1">Get in Touch</p>
-    <h1 class="title">Contact Me</h1>
-    <div class="contact-info-upper-container">
-      <div class="contact-info-container">
-        <div class="icon contact-icon email-icon" ><img src="./email.png" /></div>
-        <p><a href="mailto:sauravchakraborty2011@gmail.com">sauravchakraborty2011@gmail.com</a></p>
-      </div>
-      <div class="contact-info-container">
-        <div class="icon contact-icon email-icon" ><img src="./linkedin.png" /></div>
-        <p><a target="_blank" href="https://www.linkedin.com/in/saurav-chakraborty-389a71127/">LinkedIn</a></p>
-      </div>
-    </div>
-  </section>
-  <footer>
-    <nav>
-      <div class="nav-links-container">
-        <ul class="nav-links">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
     </nav>
-    <p>Copyright &#169; 2024 Saurav Chakraborty. All Rights Reserved.</p>
-  </footer>
-  <script src="https://saurav1312.github.io/Portfolio/script.js"></script>
+    <nav id="hamburger-nav">
+        <div class="logo">Saurav Chakraborty</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                <li><a href="#education" onclick="toggleMenu()">Education</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <!-- Profile section -->
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./profile-pic.png" />
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, I'm</p>
+            <h1 class="title">Saurav Chakraborty</h1>
+            <p class="section__text__p2">Full Stack Developer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <div class="icon">
+                    <a target="_blank" href="https://www.linkedin.com/in/saurav-chakraborty-389a71127/">
+                        <img src="./linkedin.png" />
+                    </a>
+
+                </div>
+                <div class="icon">
+                    <a target="_blank" href="https://github.com/Saurav1312">
+                        <img src="./github.png" />
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about">
+        <p class="section__text__p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./about-pic.jpeg" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <div class="icon">
+                            <img src="./experience.png" />
+                        </div>
+                        <h3>Experience</h3>
+                        <p>4+ years <br />Full Stack Development</p>
+                    </div>
+                    <div class="details-container">
+                        <div class="icon">
+                            <img src="./education.png" />
+                        </div>
+                        <h3>Education</h3>
+                        <p>B.Tech <br />Applied Electronics & Instrumentation</p>
+                    </div>
+                    <div class="text-container">
+                        <p>
+                            I am a dedicated hard-working team player with experience and excellent knowledge in
+                            cutting-edge web
+                            development technologies such as Angular, React, Node.js, Express, NestJS, and SQL. With 4+
+                            years of
+                            experience as a full-stack developer, I aim to contribute my skills and creativity to
+                            achieve your company's
+                            goals.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+
+    </section>
+
+    <!-- Experience section -->
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">TCG DIGITAL</h2>
+                    <h3>Software Developer</h3>
+                    <p>March 2023 - Present | Kolkata</p>
+                    <p>I have worked on Life Science, Aviation, and Industrial projects, developing the website
+                        structure,
+                        integrating APIs, implementing web sockets, and backend services using Node.js, Express.js, and
+                        Nest.js with
+                        MySQL.</p>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Block Stack Pvt Ltd</h2>
+                    <h3>Web Developer</h3>
+                    <p>October 2021 - February 2023 | Kolkata</p>
+                    <p>Developed Paycircle, a Fintech solution. Focused on building reusable components, secure routing,
+                        API
+                        integrations, and web sockets for real-time updates.</p>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Crecientech Infosystem</h2>
+                    <h3>Software Engineer</h3>
+                    <p>August 2020 - June 2021 | Bangalore</p>
+                    <p>Worked on developing modules, services, and editing components using Angular, Node.js,
+                        Express.js, and
+                        Ionic.</p>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Edvantage Technologies</h2>
+                    <h3>Web Developer</h3>
+                    <p>August 2019 - January 2020 | Bangalore</p>
+                    <p>Worked on Edkart, an e-commerce platform for schools. Developed product pages using Angular and
+                        collaborated on the UI design.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section id="education">
+        <p class="section__text__p1">My</p>
+        <h1 class="title">Education</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">College of Engineering and Management Kolaghat</h2>
+                    <h3>B.Tech/B.E. in Applied Electronics & Instrumentation</h3>
+                    <p>June 2017</p>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Guru Nanak Higher Secondary School, Ranchi</h2>
+                    <h3>Higher Secondary Certificate in Science</h3>
+                    <p>March 2013</p>
+                </div>
+            </div>
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Surendra Nath Centenary School, Ranchi</h2>
+                    <h3>Secondary School Certificate</h3>
+                    <p>March 2011</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in Touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <div class="icon contact-icon email-icon"><img src="./email.png" /></div>
+                <p><a href="mailto:sauravchakraborty2011@gmail.com">sauravchakraborty2011@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <div class="icon contact-icon email-icon"><img src="./linkedin.png" /></div>
+                <p><a target="_blank" href="https://www.linkedin.com/in/saurav-chakraborty-389a71127/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Saurav Chakraborty. All Rights Reserved.</p>
+    </footer>
+    <script src="https://saurav1312.github.io/Portfolio/script.js"></script>
 </body>
+
 </html>
-  
- 
-  
