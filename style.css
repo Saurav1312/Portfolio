@@ -304,6 +304,11 @@ section {
   bottom: 2.5rem;
 }
 
+.arrow img {
+  height: 25px;
+  width: 25px;
+}
+
 .details-container {
   padding: 1.5rem;
   flex: 1;
