@@ -219,6 +219,11 @@ section {
   height: 2rem;
 }
 
+.icon img {
+    height: 25px;
+    width: 25px;
+}
+
 /* BUTTONS */
 
 .btn-container {
